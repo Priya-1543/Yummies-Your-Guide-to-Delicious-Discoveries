@@ -1,0 +1,43 @@
+.recipes-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(428px, 1fr));
+    grid-gap:1.5em;
+    padding-inline: 3vw;
+    margin-bottom: 1em;
+}
+
+.lst_container{
+    li{
+        background-color: var(--primary-color);
+        display: inline-block;
+        padding: 0.5em;
+        margin: 0 0.5em .5em 0;
+        color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 3px 6px var(--shadow-color);
+        span{
+            margin-left: 1em;
+            font-weight: bold;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.button-container{
+    justify-content: center;
+    button{
+        background-color: var(--primary-color);
+        color: #fff;
+        height: auto;
+        width: auto;
+        border: none;
+        padding-block: 0.5em;
+        padding-inline: 1em;
+    }
+}
+
+.searchBar{
+    margin-inline: 2em;
+}

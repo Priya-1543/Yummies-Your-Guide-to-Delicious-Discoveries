@@ -1,0 +1,31 @@
+.footer1{
+    background-color: rgb(25, 23, 23);
+    color: white;
+    // padding-inline:5em;
+    padding-block: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 0.9em;
+    overflow: hidden;
+    word-wrap: break-word;
+    // position: relative; 
+    // bottom: 0;
+
+    // margin-top: 2em;
+
+    .footer-section{
+
+        p{
+            opacity: 0.8;
+        }
+        p.title1{
+            opacity: 1;
+            font-weight: bold;
+            font-size: 1.5em;
+
+        }
+
+        
+
+    }
+}

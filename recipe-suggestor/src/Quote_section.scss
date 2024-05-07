@@ -1,0 +1,12 @@
+.section.quote{
+    .quote-text{
+        font-size: 1.2em;
+        color: var(--text-color);
+        img{
+            color: var(--prmiary-color);
+            height: 4vw;
+            width: 4vw;
+            margin: 0 0.5em 0em 0;
+        } 
+    }
+}

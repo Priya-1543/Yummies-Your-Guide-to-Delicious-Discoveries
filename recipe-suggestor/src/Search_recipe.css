@@ -1,0 +1,60 @@
+.recipe-box {
+    display: inline-block;
+    width: 350px;
+    /* Set a fixed width for each container */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.title {
+    overflow: hidden;
+    /* Prevent text from overflowing */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    text-overflow: ellipsis;
+    /* Display an ellipsis (...) when text overflows */
+}
+
+
+.recipe-box:hover {
+    border: 2px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.button-container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-component-button{
+    background-color: aqua;
+    height: 6vh;
+    width: 23vh;
+    border-radius: 2vh;
+}
+
+.search-component-button:hover{
+    border-radius: 4vh;
+    background-color: #fff;
+    color: var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0 3px 6px var(--shadow-color);
+}
+
+#ing{
+    
+
+    color: blue;
+    font-size: large;
+    background-color: rgb(94, 92, 92);
+
+}
+
+select option{
+    background-color: black;
+
+}

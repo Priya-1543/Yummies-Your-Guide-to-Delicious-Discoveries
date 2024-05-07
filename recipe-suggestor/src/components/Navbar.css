@@ -1,0 +1,65 @@
+/* Navbar.css */
+
+.navBar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items at the start and end of the navbar */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    font-size: 24px; /* Logo font size */
+    font-weight: bold; /* Logo font weight */
+}
+
+.menu-link ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    align-items: center;
+}
+
+.menu-link li {
+    margin-right: 20px; /* Margin between menu items */
+}
+
+.menu-link li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+.menu-link a {
+    color: #fff; /* Menu item text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.menu-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.menu-link form {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.menu-link input[type="text"] {
+    padding: 5px; /* Input padding */
+    margin-right: 5px; /* Margin between input and button */
+}
+
+.menu-link button {
+    padding: 5px 10px; /* Button padding */
+    background-color: #555; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show pointer cursor on hover */
+    height: 5vh;
+    
+}
+
+.menu-link button:hover {
+    background-color: #444; /* Darker background color on hover */
+    border-radius: 30px;
+}

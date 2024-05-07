@@ -1,0 +1,31 @@
+.DetailRecipe-container {
+    margin-top: 7vh;
+    margin-left: 2vw;
+
+    .recipes-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+        .recipe-card{
+            .custome-image {
+                img {
+                    background-color: #fff;
+                }
+            }
+            .recipe-title{
+                color: black;
+            }
+            .recipe-desc {
+                color: black;
+                text-transform: capitalize;
+            }
+        }
+
+        .recipe-card.present {
+            background-color: rgb(215, 250, 162);
+        }
+
+        .recipe-card.absent {
+            background-color: rgb(251, 186, 202);
+        }
+    }
+}

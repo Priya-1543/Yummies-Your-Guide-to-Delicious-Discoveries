@@ -1,0 +1,38 @@
+@function getAnimationDuration($duration: number) {
+    @return calc($duration * var(--animation-speed));
+}
+
+@import './components/partials/_animations.scss';
+
+.section.things_to_do{
+    .col.typography{
+        padding-left: 1em;
+        .to_do{
+            border-left: .2em solid var(--primary-color);
+            margin-top: 1em;
+            padding: 0em 0 0.1em 0.5em;
+            color: var(--text-color);
+            font-weight: bold;
+            transform: translateX(100%);
+            opacity: 0;
+            animation: getAnimationDuration(.5s) slideInRight forwards;
+
+            @for $i from 2 through 5{
+                &:nth-child(#{$i}){
+                    animation-delay: #{$i * .1}s;
+                }
+            }
+            
+        }
+    }
+    .btn{
+        margin-top: 1em;
+    }
+
+    .about_img{
+        img{
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+}
