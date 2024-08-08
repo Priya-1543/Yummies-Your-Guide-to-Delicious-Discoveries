@@ -1,5 +1,7 @@
 # Yummies: Your Guide to Delicious Discoveries
 
+## [Click here for Demo Video](https://youtu.be/IZVMjEBILag?si=i6FOYcpzlaZ8JOug)
+
 Yummies is a web-based application for food enthusiasts. Users can input a list of ingredients they have and discover various delicious recipes that can be made with them. For those eager to cook, we also provide YouTube videos to guide you through each step of preparing a tasty dish. The website is **fully responsive** and built using the **MERN stack**. We use the [Spoonacular API](https://spoonacular.com/food-api/docs) to fetch recipe data in JSON format.
 
 Upon loading the website, the home page displays as shown below. It features interesting **food quotes** at the top, which change every time you refresh the page.
